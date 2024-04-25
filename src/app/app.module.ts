@@ -12,6 +12,7 @@ import {HomeComponent} from './home/home.component';
 import {AboutComponent} from './about/about.component';
 import {MatTabsModule} from '@angular/material/tabs';
 import {CourseComponent} from './course/course.component';
+import {CoursesCardListComponent} from './courses-card-list/courses-card-list.component';
 import {MatDatepickerModule} from '@angular/material/datepicker';
 import {MatDialogModule} from '@angular/material/dialog';
 import {MatInputModule} from '@angular/material/input';
@@ -40,6 +41,7 @@ import { LoadingComponent } from './loading/loading.component';
     HomeComponent,
     AboutComponent,
     CourseComponent,
+    CoursesCardListComponent,
     CourseDialogComponent,
     LoginComponent,
     LessonComponent,
